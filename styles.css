@@ -5,8 +5,8 @@
 }
 header {
   display:flex;
-  gap: 20em;
-  padding:1em 3em;
+  gap: 27em;
+  padding:1em 1em 1em 3em;
   flex-wrap: nowrap;
   background-color: black;
   color:white;
@@ -15,7 +15,7 @@ header div img {
   padding-right: 0.5em;
 }
 header div img:last-child {
-  padding-left: 2em;
+  padding-left:1em;
  transform: scale(2);
 }
 main .banner {
