@@ -3,6 +3,10 @@
   padding:0;
   box-sizing:border-box;
 }
+body {
+  max-width:100vw;
+  overflow-x: hidden;
+}
 header {
   display:flex;
   gap: 27em;
@@ -119,4 +123,62 @@ main .about_me div:nth-of-type(2) button {
   background-color: black;
   color:white;
   border-radius:4em;
+}
+main .services {
+  height: 50vh;
+  width: 100vw;
+  margin-bottom: 5em;
+}
+main .services h1  {
+ font-family: mySecondFont;
+  text-align: center;
+  color:#f2f4f4;
+  font-size: 10em;
+}
+main .services h3 {
+font-size:2.5em;
+position: relative;
+top:-14%;
+text-align: center;
+}
+main .services hr {
+position: relative;
+top:-14%;
+margin: auto;
+height: 0.2em;
+  width: 10vw;
+  background-color: black;
+border: 1px solid black;
+  border-radius:25%;
+ margin-bottom: 5em;
+}
+main .services div {
+  position: relative;
+  top:-18%;
+  left:7%;
+  display: flex;
+  flex-wrap: wrap;
+ max-width:85vw;
+ margin:auto;
+ 
+}
+main .services div p {
+  flex: 50%;
+  max-width:30vw ;
+  margin:0em 6em 1em 0em;
+}
+main .services div p img {
+position: relative;
+top:20%;
+left:-24%;
+padding: 1em;
+background-color: ;
+  border-radius:1em;
+  max-height: 5em;
+  min-height:4.8em;
+}
+main .services div p span {
+  font-weight:bold;
+  display: block;
+  font-size: 1.5em;
 }
