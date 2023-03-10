@@ -127,12 +127,13 @@ main .about_me div:nth-of-type(2) button {
 main .services {
   height: 50vh;
   width: 100vw;
-  margin-bottom: 5em;
+  margin-bottom: 10em;
+  background-color: #f8f9fa;
 }
 main .services h1  {
  font-family: mySecondFont;
   text-align: center;
-  color:#f2f4f4;
+  color:#eff0f2;
   font-size: 10em;
 }
 main .services h3 {
@@ -170,9 +171,10 @@ main .services div p {
 main .services div p img {
 position: relative;
 top:20%;
-left:-24%;
+left:-30%;
 padding: 1em;
-background-color: ;
+background-color: #fcfeff;
+ box-shadow:10px 10px 10px  2px #e9e9e9;
   border-radius:1em;
   max-height: 5em;
   min-height:4.8em;
@@ -181,4 +183,95 @@ main .services div p span {
   font-weight:bold;
   display: block;
   font-size: 1.5em;
+}
+main .summary {
+height: 50vh;
+  width: 100vw;
+}
+main .summary h1 {
+font-family: mySecondFont;
+  text-align: center;
+  color:#eff0f2;
+  font-size: 10em;
+}
+main .summary h3 {
+font-size:2.5em;
+position: relative;
+top:-14%;
+text-align: center;
+}
+main .summary hr {
+position: relative;
+top: -14%;
+margin: auto;
+height: 0.2em;
+  width: 10vw;
+  background-color: black;
+border: 1px solid black;
+  border-radius:25%;
+
+}
+main .summary .resume {
+  display:flex;
+  max-width:80vw;
+  margin:auto;
+  gap:5em;
+}
+main .summary .resume .education h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+main .summary .resume .education .card {
+padding: 2em;
+height: 27vh;
+width:35vw;
+background-color: white;
+border:2px solid #f3f3f3; 
+border-radius:1em;
+box-shadow:10px 10px 10px  2px #e9e9e9;
+}
+main .summary .resume .education .card span {
+  display: inline-block;
+  padding:0.2em 0.6em;
+  background-color: black;
+  color:white;
+  border-radius:0.4em;
+  margin-bottom: 1em;
+}
+main .summary .resume .education .card h4 {
+  font-size: 1.5em;
+  margin-bottom:0.6em;
+}
+main .summary .resume .education .card h5 {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+main .summary .resume .experience h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+main .summary .resume .experience .card {
+padding: 2em;
+height: 27vh;
+width:35vw;
+background-color: white;
+border:2px solid #f3f3f3; 
+border-radius:1em;
+box-shadow:10px 10px 10px  2px #e9e9e9;
+}
+main .summary .resume .experience .card span {
+  display: inline-block;
+  padding:0.2em 0.6em;
+  background-color: black;
+  color:white;
+  border-radius:0.4em;
+  margin-bottom: 1em;
+}
+main .summary .resume .experience .card h4 {
+  font-size: 1.5em;
+  margin-bottom:0.6em;
+}
+main .summary .resume .experience .card h5 {
+  font-size: 1.1em;
+  margin-bottom: 1em;
 }
