@@ -187,6 +187,7 @@ main .services div p span {
 main .summary {
 height: 50vh;
   width: 100vw;
+  margin-bottom: 20em;
 }
 main .summary h1 {
 font-family: mySecondFont;
@@ -210,6 +211,16 @@ height: 0.2em;
 border: 1px solid black;
   border-radius:25%;
 
+}
+main .summary button {
+padding:1em 2em;
+  border:1px solid  black;
+  color:black;
+  background-color: white;
+  border-radius:4em;
+  position: relative;
+  top:2%;
+  left: 40%;
 }
 main .summary .resume {
   display:flex;
@@ -341,4 +352,163 @@ main .summary .skills .bar .skill-bar .skill-progress2 {
     width: 60%;
   }
 }
+main .portfolio {
+height: 100vh;
+  width: 100vw;
+  margin-bottom: 100em;
+}
+main .portfolio h1 {
+font-family: mySecondFont;
+  text-align: center;
+  color:#eff0f2;
+  font-size: 10em;
+}
+main .portfolio h3 {
+font-size:2.5em;
+position: relative;
+top:-7%;
+text-align: center;
+}
+main .portfolio hr {
+position: relative;
+top: -7%;
+margin: auto;
+height: 0.2em;
+  width: 10vw;
+  background-color: black;
+border: 1px solid black;
+  border-radius:25%;
 
+}
+main .portfolio div {
+  display:flex;
+  max-width:80vw ;
+  flex-wrap: wrap;
+  margin: auto;
+  gap:1.5em;
+}
+main .portfolio div img {
+  flex:45%;
+  object-fit: contain;
+}
+main .contact {
+height: 50vh;
+  width: 100vw;
+  background-color: #f8f9fa;
+}
+main .contact h1 {
+font-family: mySecondFont;
+  text-align: center;
+  color:#eff0f2;
+  font-size: 10em;
+}
+main .contact h3 {
+font-size:2.5em;
+position: relative;
+top:-14%;
+text-align: center;
+}
+main .contact hr {
+position: relative;
+top: -14%;
+margin: auto;
+height: 0.2em;
+  width: 10vw;
+  background-color: black;
+border: 1px solid black;
+  border-radius:25%;
+
+}
+main .contact .touch {
+  display:flex;
+  max-width:80vw;
+  margin:auto;
+}
+main .contact .touch .address {
+  flex:35%;
+  max-width:35vw;
+}
+main .contact .touch .address h2 {
+  font-size: 1.3em;
+  font-weight:400;
+  margin-bottom:2em;
+}
+main .contact .touch .address p:nth-of-type(1) {
+ margin-bottom:2em;
+}
+main .contact .touch .address p img {
+  position:relative;
+  top:0.8vw;
+  margin-right:0.4em;
+}
+main .contact .touch .address h4 {
+  font-size:1.3em;
+  font-weight:400;
+  margin-top:2em;
+}
+main .contact .touch .address .follow {
+  display:flex;
+ 
+}
+main .contact .touch .address .follow img {
+  padding: 1em 1em 0em 0em;
+ 
+}
+main .contact .touch .send form{
+min-width:55vw;
+  border-radius:0.4em;
+  padding: 5em;
+  background-color: white;
+  max-width: 55vw;
+  position: relative;
+  top:-2.5vh;
+  background-color: #f8f9fa;
+}
+main .contact .touch .send form legend {
+font-size: 1.3em;
+  font-weight:400;
+  margin-top:-1.7em;
+  margin-bottom: 2em;
+}
+main .contact .touch .send form input {
+display: block;
+height: 2vh;
+  width: 42vw;
+  margin:0em 1em 0em 0em;
+  border-radius:0.4em;
+  margin-bottom: 1em;
+  background-color: white;
+  border:1px solid white;
+  margin-bottom: 2em;
+}
+main .contact .touch .send form ::-webkit-input-placeholder {
+padding: 0 0.5em;
+  font-size: 1.5em;
+}
+main .contact .touch .send form textarea{
+  height: 8vh;
+  min-width: 42vw;
+  border-radius:0.4em;
+  background-color: white;
+  border:1px solid white;
+}
+main .contact .touch .send form button {
+font-size: 1.2em;
+padding: 1em 2em;
+  border-radius:0.7em;
+  position: relative;
+  top:1.5vh;
+  left:5vw;
+  color:white;
+  background-color: black;
+  border:1px solid black;
+}
+footer {
+  font-size: 1.5em;
+  max-width: 100vw;
+text-align: center;
+padding: 4em 0em;
+}
+footer span {
+  color:#21c998;
+}
