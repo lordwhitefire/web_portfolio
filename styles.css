@@ -214,7 +214,7 @@ border: 1px solid black;
 main .summary .resume {
   display:flex;
   max-width:80vw;
-  margin:auto;
+  margin:0 auto 4em;
   gap:5em;
 }
 main .summary .resume .education h2 {
@@ -275,3 +275,70 @@ main .summary .resume .experience .card h5 {
   font-size: 1.1em;
   margin-bottom: 1em;
 }
+main .summary .skills {
+  display:flex;
+  max-width:80vw;
+  margin:auto;
+  flex-wrap: wrap;
+ padding-left: 2em;
+}
+main .summary .skills h2 {
+  display:block;
+  width: 100%;
+  margin-bottom: 1em;
+ 
+}
+main .summary .skills .bar {
+  flex:50%;
+  margin-bottom: 2em;
+  
+}
+main .summary .skills .bar p span {
+ position: relative;
+ left:60%;
+}
+main .summary .skills .bar:nth-of-type(3) p span {
+ position: relative;
+ left:50%;
+}
+main .summary .skills .bar:nth-of-type(4) p span {
+ position: relative;
+ left:56%;
+}
+main .summary .skills .bar .skill-bar {
+  width: 30vw;
+  height: 0.5vh;
+  background-color:#f2f2f2;
+  border-radius: 1em;
+}
+main .summary .skills .bar .skill-bar .skill-progress1 {
+  height: 0.5vh;
+  background-color: black;
+  border-radius: 1em;
+  animation: skill-progress1 2s ease-in-out forwards;
+  animation-delay: 2s;
+}
+main .summary .skills .bar .skill-bar .skill-progress2 {
+  height: 0.5vh;
+  background-color: black;
+  border-radius: 1em;
+  animation: skill-progress2 2s ease-in-out forwards;
+  animation-delay: 2s;
+}
+@keyframes skill-progress1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@keyframes skill-progress2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+
