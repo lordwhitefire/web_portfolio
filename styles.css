@@ -106,7 +106,7 @@ main .about_me div:nth-of-type(1) p span {
   font-size:3.5em;
 }
 main .about_me div:nth-of-type(2) {
-  padding-left:6.2em;
+  padding-left:6.2vw;
  position: relative;
  top:-10%;
 }
@@ -511,4 +511,134 @@ padding: 4em 0em;
 }
 footer span {
   color:#21c998;
+}
+@media screen and (max-width: 420px) {
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+ header {
+  padding:0.4em 0.4em 0.4em 1.2em;
+    gap:2em;
+    
+  }
+ header h1 {
+    padding-top:0.4em;
+font-size: 1.3em;
+  }
+header div img {
+  padding-right: 0em;
+}
+header div img:last-child {
+  padding-left:0em;
+ transform: scale(1);
+}
+main .banner .screen div {
+  transform:scale(1);
+}
+main .about_me {
+  height: 160vh;
+  margin-top:2em;
+  padding-top:2em;
+  margin-bottom: 2em;
+}
+main .about_me h1 {
+  font-size: 4em;
+}
+main .about_me div:nth-of-type(1) {
+ position: relative;
+ top:-6%;
+}
+main .about_me div:nth-of-type(1) h2  {
+  font-size:2em;
+  
+}
+main .about_me div:nth-of-type(1) hr {
+  margin-bottom: 2em;
+}
+main .about_me div:nth-of-type(1) h3 {
+  font-size:1.7em;
+  margin-bottom: 0.5em;
+  max-width:80vw;
+  text-align: center;
+}
+main .about_me div:nth-of-type(1) h3 span {
+  text-transform:uppercase;
+}
+main .about_me div:nth-of-type(1) p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+main .about_me div:nth-of-type(1) p span {
+  font-size:2em;
+}
+main .about_me div:nth-of-type(2) {
+  padding-left:6.2vw;
+ position: relative;
+ top:-6%;
+}
+main .about_me div:nth-of-type(2) p {
+  font-size: 0.8em;
+}
+main .services {
+  height:300vh;
+  width: 100vw;
+  padding-bottom: 4em;
+  background-color: #f8f9fa;
+}
+main .services h1  {
+ font-family: mySecondFont;
+  text-align: center;
+  color:#eff0f2;
+  font-size: 4em;
+}
+main .services  h3 {
+  position: relative;
+  top:-3.3%;
+font-size:2em;
+text-align: center;
+}
+main .services hr {
+  position: relative;
+  top:-3.5%;
+margin: auto;
+height: 0.2em;
+  width: 10vw;
+  background-color: black;
+border: 1px solid black;
+  border-radius:25%;
+ margin-bottom: 5em;
+}
+main .services div {
+  position: relative;
+  top:-8%;
+  display: flex;
+  flex-wrap: wrap;
+ max-width:100vw;
+ margin:auto;
+}
+main .services div p {
+ flex:100%;
+ min-width: 70vw;
+  position: relative;
+  left:20vw;
+}
+main .services div p img {
+position: relative;
+top:20%;
+left:-27%;
+
+padding: 1em;
+background-color: #fcfeff;
+ box-shadow:10px 10px 10px  2px #e9e9e9;
+  border-radius:1em;
+  max-height: 4em;
+  min-height:3.8em;
+}
+main .services div p span {
+  font-weight:bold;
+  display: block;
+  font-size: 1.5em;
+}
+
 }
