@@ -599,21 +599,12 @@ font-size:2em;
 text-align: center;
 }
 main .services hr {
-  position: relative;
   top:-3.5%;
-margin: auto;
-height: 0.2em;
-  width: 10vw;
-  background-color: black;
-border: 1px solid black;
-  border-radius:25%;
  margin-bottom: 5em;
 }
 main .services div {
-  position: relative;
+  left:0%;
   top:-8%;
-  display: flex;
-  flex-wrap: wrap;
  max-width:100vw;
  margin:auto;
 }
@@ -627,18 +618,213 @@ main .services div p img {
 position: relative;
 top:20%;
 left:-27%;
-
-padding: 1em;
-background-color: #fcfeff;
- box-shadow:10px 10px 10px  2px #e9e9e9;
-  border-radius:1em;
   max-height: 4em;
   min-height:3.8em;
 }
-main .services div p span {
-  font-weight:bold;
-  display: block;
-  font-size: 1.5em;
+main .summary {
+height: 300vh;
+  margin-bottom: 0vh;
 }
-
+main .summary h1 {
+  font-size: 4em;
+}
+main .summary h3 {
+font-size:2em;
+top:-2.8%;
+}
+main .summary hr {
+position: relative;
+top: -3.1%;
+}
+main .summary button {
+  left: 30%;
+}
+main .summary .resume {
+  display:flex;
+  max-width:90vw;
+  margin:0 auto 0em;
+  gap:0em;
+  row-gap: 10vh;
+  flex-wrap: wrap;
+}
+main .summary .resume .education .card {
+height: 90vh;
+min-width:85vw;
+}
+main .summary .resume .experience .card {
+height: 90vh;
+width:85vw;
+margin-bottom: 3vh;
+}
+main .summary .skills {
+  display:flex;
+  max-width:90vw;
+  margin:auto;
+  flex-wrap: wrap;
+ padding-left: 2em;
+}
+main .summary .skills h2 {
+  display:block;
+  width: 100%;
+  margin-bottom: 1em;
+ 
+}
+main .summary .skills .bar {
+  flex:100%;
+  margin-bottom: 2vh;
+  
+}
+main .summary .skills .bar:nth-of-type(1) p span {
+ left:76%;
+}
+main .summary .skills .bar:nth-of-type(2) p span {
+ left:78%;
+}
+main .summary .skills .bar:nth-of-type(3) p span {
+ left:60%;
+}
+main .summary .skills .bar:nth-of-type(4) p span {
+ left:70%;
+}
+main .summary .skills .bar .skill-bar {
+  width: 80vw;
+  height: 1.5vh;
+}
+main .summary .skills .bar .skill-bar .skill-progress1 {
+  height: 1.5vh;
+}
+main .summary .skills .bar .skill-bar .skill-progress2 {
+  height: 1.5vh;
+}
+main .portfolio {
+height: 640vh;
+  width: 100vw;
+  margin-bottom:15vh;
+}
+main .portfolio h1 {
+  font-size: 3.8em;
+}
+main .portfolio h3 {
+font-size:2em;
+top:-1.4%;
+}
+main .portfolio hr {
+top: -1.5%;
+}
+main .portfolio div {
+  max-width:90vw ;
+  gap:0em;
+  row-gap: 5vh;
+}
+main .portfolio div img {
+  flex:100%;
+  min-width: 80vw;
+  max-width:90vw;
+}
+main .contact {
+height: 170vh;
+  max-width: 100vw;
+}
+main .contact h1 {
+  font-size: 4em;
+}
+main .contact h3 {
+font-size:2em;
+top:-6%;
+}
+main .contact hr {
+top: -6.5%;
+}
+main .contact .touch {
+  max-width:90vw;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+main .contact .touch .address {
+  flex:100%;
+  max-width:90vw;
+  position: relative;
+  top:10vh;
+}
+main .contact .touch .address h2 {
+  font-size: 1.3em;
+  font-weight:400;
+  text-align: center;
+  margin-bottom:4vh;
+}
+main .contact .touch .address p:nth-of-type(1) {
+ text-align: center;
+ margin-bottom:4vh;
+}
+main .contact .touch .address p {
+  text-align: center;
+}
+main .contact .touch .address p img {
+  position:relative;
+  top:1vh;
+  margin-right:0.4vw;
+}
+main .contact .touch .address h4 {
+  font-size:1.3em;
+  font-weight:400;
+  margin-top:2vh;
+  text-align: center;
+  margin-bottom:4vh;
+}
+main .contact .touch .address .follow  {
+  max-width: 50vw;
+  position: relative;
+  left:20vw;
+}
+main .contact .touch .address .follow  {
+  max-width: 50vw;
+  position: relative;
+  left:20vw;
+}
+main .contact .touch .address .follow img {
+  padding: 0;
+  margin: auto;
+ 
+}
+main .contact .touch .send form{
+min-width:90vw;
+  max-width: 90vw;
+  top:0vh;
+  padding: 2em;
+}
+main .contact .touch .send form legend {
+font-size: 1.2em;
+  font-weight:400;
+  margin-top:0vh;
+  position: relative;
+  top:-7vh;
+  left:14vw;
+  margin-bottom:3vh;
+  text-transform:uppercase ;
+}
+main .contact .touch .send form input {
+display: block;
+height: 10vh;
+  width: 82vw;
+  margin:0em 1em 0em 0em;
+  border-radius:0.4em;
+  margin-bottom: 1em;
+  background-color: white;
+  border:1px solid white;
+  margin-bottom: 2em;
+}
+main .contact .touch .send form ::-webkit-input-placeholder {
+padding: 0 0.5em;
+  font-size: 1.2em;
+}
+main .contact .touch .send form textarea{
+  height: 30vh;
+  min-width: 82vw;
+}
+main .contact .touch .send form button {
+  top:3.5vh;
+}
+footer {
+  font-size: 1.2em;
+padding: 2em 0em;
 }
