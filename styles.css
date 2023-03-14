@@ -519,12 +519,12 @@ footer span {
   }
  header {
   padding:0.4em 0.4em 0.4em 1.2em;
-    gap:2em;
+    gap:1.5em;
     
   }
  header h1 {
     padding-top:0.4em;
-font-size: 1.3em;
+font-size: 1.1em;
   }
 header div img {
   padding-right: 0em;
