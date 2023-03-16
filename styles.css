@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+scroll-behavior: smooth;
 }
 body {
   max-width:100vw;
@@ -9,18 +10,49 @@ body {
 }
 header {
   display:flex;
-  gap: 27em;
-  padding:1em 1em 1em 3em;
-  flex-wrap: nowrap;
-  background-color: black;
+  gap: 16em;
+  padding:2.5em 1em 1em 3em;
+  flex-wrap: wrap;
+  background-color: #111418;
   color:white;
+  position: fixed;
+  width:100vw;
+  z-index: 999;
+  height: 7vh;
+  
+}
+header h1 {
+  font-size: 3em;
 }
 header div img {
-  padding-right: 0.5em;
+  padding-right: 0.6em;
 }
 header div img:last-child {
-  padding-left:1em;
+  padding-left:1.5em;
  transform: scale(2);
+}
+ ul {
+  background-color:black;
+  display: none;
+ width: 100vw;
+ position: fixed;
+ top:7vh;
+ z-index: 999;
+
+}
+ ul li {
+   font-size: 2.7vh;
+   padding:0.5em 1em ;
+   color:white;
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li:last-child {
+  border: none;
 }
 main .banner {
   height: 100vh;
@@ -519,7 +551,7 @@ footer span {
   }
  header {
   padding:0.4em 0.4em 0.4em 1.2em;
-    gap:1.5em;
+    gap:3.8em;
     
   }
  header h1 {
@@ -776,15 +808,9 @@ main .contact .touch .address .follow  {
   position: relative;
   left:20vw;
 }
-main .contact .touch .address .follow  {
-  max-width: 50vw;
-  position: relative;
-  left:20vw;
-}
-main .contact .touch .address .follow img {
-  padding: 0;
-  margin: auto;
- 
+main .contact .touch .address .follow 
+ img {
+  margin-right:auto;
 }
 main .contact .touch .send form{
 min-width:90vw;
