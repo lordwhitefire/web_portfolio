@@ -806,12 +806,9 @@ main .contact .touch .address h4 {
 main .contact .touch .address .follow  {
   max-width: 50vw;
   position: relative;
-  left:20vw;
+  left:22vw;
 }
-main .contact .touch .address .follow 
- img {
-  margin-right:auto;
-}
+
 main .contact .touch .send form{
 min-width:90vw;
   max-width: 90vw;
