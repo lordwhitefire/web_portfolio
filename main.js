@@ -8,10 +8,14 @@ $button.on('click', function() {
     $button.attr('src', 'img/x.svg');
   } else {
     $button.attr('src', 'img/menu.svg');
-  }/*
-$button.fadeOut('fast', function() {
-    // fade in the new image
-    $button.fadeIn('fast');
-});*/
+  }
+  /*
+    $button.fadeOut(1000, function() {
+        // change the image source here
+        $button.fadeIn(1000);
+        $nextImageSource.delay(500).fadeIn(1000);
+    });
+*/
+
 });
 });

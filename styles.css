@@ -338,15 +338,23 @@ main .summary .skills .bar {
 }
 main .summary .skills .bar p span {
  position: relative;
- left:60%;
+ left:62%;
 }
 main .summary .skills .bar:nth-of-type(3) p span {
- position: relative;
- left:50%;
+ position:relative;
+ left:52%;
 }
 main .summary .skills .bar:nth-of-type(4) p span {
  position: relative;
- left:56%;
+ left:58%;
+}
+main .summary .skills .bar:nth-of-type(5) p span {
+ position: relative;
+ left:60%;
+}
+main .summary .skills .bar:nth-of-type(6) p span {
+ position: relative;
+ left:66%;
 }
 main .summary .skills .bar .skill-bar {
   width: 30vw;
@@ -713,11 +721,18 @@ main .summary .skills .bar:nth-of-type(2) p span {
  left:78%;
 }
 main .summary .skills .bar:nth-of-type(3) p span {
- left:60%;
+ left:62%;
 }
 main .summary .skills .bar:nth-of-type(4) p span {
- left:70%;
+ left:72%;
 }
+main .summary .skills .bar:nth-of-type(5) p span {
+ left:74%;
+}
+main .summary .skills .bar:nth-of-type(6) p span {
+ left:82%;
+}
+
 main .summary .skills .bar .skill-bar {
   width: 80vw;
   height: 1.5vh;
